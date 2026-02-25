@@ -1,0 +1,16 @@
+.env
+.venv/
+keys/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+data/cache/
+data/reports/
+data/trades/
+.vscode/
+.idea/
+uv.lock

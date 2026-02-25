@@ -1,0 +1,51 @@
+{
+  "event": {
+    "event_ticker": "KXCPI-25MAR",
+    "series_ticker": "KXCPI",
+    "title": "March 2025 CPI Release",
+    "category": "economics",
+    "sub_title": "Consumer Price Index year-over-year change",
+    "mutually_exclusive": true,
+    "markets": [
+      {
+        "ticker": "KXCPI-25MAR-T2.5",
+        "event_ticker": "KXCPI-25MAR",
+        "market_type": "binary",
+        "status": "active",
+        "yes_bid": 70,
+        "yes_ask": 73,
+        "last_price": 71,
+        "volume_24h": 400,
+        "open_interest": 600,
+        "rules_primary": "Will CPI exceed 2.5%?",
+        "category": "economics"
+      },
+      {
+        "ticker": "KXCPI-25MAR-T3.0",
+        "event_ticker": "KXCPI-25MAR",
+        "market_type": "binary",
+        "status": "active",
+        "yes_bid": 45,
+        "yes_ask": 48,
+        "last_price": 47,
+        "volume_24h": 350,
+        "open_interest": 800,
+        "rules_primary": "Will CPI exceed 3.0%?",
+        "category": "economics"
+      },
+      {
+        "ticker": "KXCPI-25MAR-T3.5",
+        "event_ticker": "KXCPI-25MAR",
+        "market_type": "binary",
+        "status": "active",
+        "yes_bid": 18,
+        "yes_ask": 22,
+        "last_price": 20,
+        "volume_24h": 200,
+        "open_interest": 400,
+        "rules_primary": "Will CPI exceed 3.5%?",
+        "category": "economics"
+      }
+    ]
+  }
+}

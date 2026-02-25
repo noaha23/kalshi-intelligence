@@ -1,0 +1,32 @@
+{
+  "balance": {
+    "balance": 50000,
+    "portfolio_value": 52350
+  },
+  "market_positions": [
+    {
+      "ticker": "KXCPI-25MAR-T3.0",
+      "market_exposure": 4700,
+      "resting_orders_count": 2,
+      "total_traded": 15,
+      "realized_pnl": 230
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "abc123-def456",
+      "ticker": "KXCPI-25MAR-T3.0",
+      "side": "yes",
+      "action": "buy",
+      "status": "resting",
+      "type": "limit",
+      "yes_price": 45,
+      "count": 10,
+      "remaining_count": 10,
+      "taker_fees": 0,
+      "maker_fees": 0,
+      "created_time": "2025-03-01T10:30:00Z",
+      "time_in_force": "good_till_canceled"
+    }
+  ]
+}

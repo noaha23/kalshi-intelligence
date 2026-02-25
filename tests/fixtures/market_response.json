@@ -1,0 +1,49 @@
+{
+  "markets": [
+    {
+      "ticker": "KXCPI-25MAR-T3.0",
+      "event_ticker": "KXCPI-25MAR",
+      "market_type": "binary",
+      "yes_sub_title": "Yes",
+      "no_sub_title": "No",
+      "status": "active",
+      "open_time": "2025-02-15T14:00:00Z",
+      "close_time": "2025-03-15T14:00:00Z",
+      "yes_bid": 45,
+      "yes_ask": 48,
+      "no_bid": 52,
+      "no_ask": 55,
+      "last_price": 47,
+      "volume": 1200,
+      "volume_24h": 350,
+      "open_interest": 800,
+      "result": "",
+      "rules_primary": "Will the CPI inflation rate exceed 3.0% year-over-year for March 2025?",
+      "rules_secondary": "Resolution based on Bureau of Labor Statistics CPI-U data.",
+      "category": "economics",
+      "series_ticker": "KXCPI",
+      "title": "CPI > 3.0% March 2025"
+    },
+    {
+      "ticker": "KXHIGHNY-25MAR01-B55",
+      "event_ticker": "KXHIGHNY-25MAR01",
+      "market_type": "binary",
+      "status": "active",
+      "open_time": "2025-02-28T14:00:00Z",
+      "close_time": "2025-03-01T23:59:00Z",
+      "yes_bid": 62,
+      "yes_ask": 65,
+      "no_bid": 35,
+      "no_ask": 38,
+      "last_price": 63,
+      "volume": 500,
+      "volume_24h": 180,
+      "open_interest": 300,
+      "rules_primary": "Will the high temperature in New York City exceed 55°F on March 1, 2025?",
+      "category": "weather",
+      "series_ticker": "KXHIGHNY",
+      "title": "NYC High > 55°F Mar 1"
+    }
+  ],
+  "cursor": ""
+}
